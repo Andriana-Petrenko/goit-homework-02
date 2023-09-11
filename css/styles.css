@@ -1,7 +1,7 @@
 body{
     font-family: "Roboto",sans-serif;
-    color: #2E2F42;
-    background: #FFFFFF;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .list{
@@ -24,17 +24,18 @@ body{
 
 /* Стилі Header */
 .logo{
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
+    color:#4D5AE5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .word{
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .nav-link{
@@ -43,6 +44,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
@@ -50,12 +52,6 @@ body{
 .nav-link:hover,
 .nav-link:focus{
     text-decoration:underline;
-    color: #404BBF;
-}
-
-.adrs-link:hover,
-.adrs-link:focus,
-.adrs-link:active{
     color: #404BBF;
 }
 
@@ -68,6 +64,11 @@ body{
     text-decoration: none;
 }
 
+.adrs-link:hover,
+.adrs-link:focus,
+.adrs-link:active{
+    color: #404BBF;
+}
 /* Стилі Main */
 .basic{
     background-color: #2E2F42;
@@ -83,9 +84,7 @@ body{
 }
 
 .basic-button{
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color:#FFFFFF;
     font-size: 16px;
     font-weight: 500;
