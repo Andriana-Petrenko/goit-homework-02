@@ -25,6 +25,7 @@ body{
 /* Стилі Header */
 .logo{
     font-family: Raleway;
+    color:#2E2F42;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
